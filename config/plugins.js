@@ -24,9 +24,7 @@ module.exports = {
         api_secret: process.env.CLOUDINARY_SECRET,
       },
       actionOptions: {
-        upload: {
-          asset_folder: process.env.CLOUDINARY_ASSET_FOLDER,
-        },
+        upload: {},
         uploadStream: {},
         delete: {},
       },
