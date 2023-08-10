@@ -1,0 +1,78 @@
+{
+  "key": "plugin_content_manager_configuration_components::fragments.faq",
+  "value": {
+    "uid": "fragments.faq",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "question",
+      "defaultSortBy": "question",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "question": {
+        "edit": {
+          "label": "Question",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "question",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "answer": {
+        "edit": {
+          "label": "Answer",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "answer",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "question",
+        "answer"
+      ],
+      "edit": [
+        [
+          {
+            "name": "question",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "answer",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

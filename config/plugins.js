@@ -30,6 +30,7 @@ module.exports = {
       },
     },
   },
+  "duplicate-button": true,
   graphql: {
     config: {
       endpoint: "/graphql",

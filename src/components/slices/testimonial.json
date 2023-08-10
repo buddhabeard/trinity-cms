@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_slices_testimonials",
+  "info": {
+    "displayName": "Testimonial",
+    "icon": "quote"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true,
+      "minLength": 3
+    },
+    "subHeading": {
+      "type": "string"
+    },
+    "video": {
+      "type": "customField",
+      "customField": "plugin::oembed.oembed"
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

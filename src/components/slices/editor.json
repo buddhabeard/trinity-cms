@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_slices_editors",
+  "info": {
+    "displayName": "Editor",
+    "icon": "feather"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
