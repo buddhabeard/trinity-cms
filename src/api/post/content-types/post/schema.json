@@ -40,6 +40,10 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::event.event"
+    },
+    "slug": {
+      "type": "string",
+      "unique": true
     }
   }
 }

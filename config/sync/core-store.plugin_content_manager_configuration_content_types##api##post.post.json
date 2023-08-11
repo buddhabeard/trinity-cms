@@ -106,6 +106,20 @@
           "sortable": true
         }
       },
+      "slug": {
+        "edit": {
+          "label": "slug",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "slug",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -140,11 +154,13 @@
         [
           {
             "name": "title",
-            "size": 6
-          },
+            "size": 12
+          }
+        ],
+        [
           {
             "name": "categories",
-            "size": 6
+            "size": 12
           }
         ],
         [
@@ -175,6 +191,8 @@
       "list": [
         "id",
         "title",
+        "slug",
+        "image",
         "likes"
       ]
     }

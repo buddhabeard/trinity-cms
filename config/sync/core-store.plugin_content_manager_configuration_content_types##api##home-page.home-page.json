@@ -34,6 +34,20 @@
           "sortable": false
         }
       },
+      "seo": {
+        "edit": {
+          "label": "seo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "seo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -64,18 +78,25 @@
       }
     },
     "layouts": {
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "seo"
+      ],
       "edit": [
         [
           {
             "name": "slices",
             "size": 12
           }
+        ],
+        [
+          {
+            "name": "seo",
+            "size": 12
+          }
         ]
-      ],
-      "list": [
-        "id",
-        "createdAt",
-        "updatedAt"
       ]
     }
   },
