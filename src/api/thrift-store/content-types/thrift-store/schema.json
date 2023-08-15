@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "home_pages",
+  "collectionName": "thrift_stores",
   "info": {
-    "singularName": "home-page",
-    "pluralName": "home-pages",
-    "displayName": "Home",
-    "description": ""
+    "singularName": "thrift-store",
+    "pluralName": "thrift-stores",
+    "displayName": "Thrift Store"
   },
   "options": {
     "draftAndPublish": true

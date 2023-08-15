@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "home_pages",
+  "collectionName": "applies",
   "info": {
-    "singularName": "home-page",
-    "pluralName": "home-pages",
-    "displayName": "Home",
-    "description": ""
+    "singularName": "apply",
+    "pluralName": "applies",
+    "displayName": "Apply"
   },
   "options": {
     "draftAndPublish": true
