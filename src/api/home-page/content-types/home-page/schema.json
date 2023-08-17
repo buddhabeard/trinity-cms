@@ -19,7 +19,8 @@
         "slices.editor",
         "slices.fa-qs",
         "slices.hero",
-        "slices.testimonial"
+        "slices.testimonial",
+        "slices.link-cards"
       ]
     },
     "seo": {

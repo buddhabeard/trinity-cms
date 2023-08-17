@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_slices_link_cards",
+  "info": {
+    "displayName": "Link Cards",
+    "icon": "grid"
+  },
+  "options": {},
+  "attributes": {
+    "linkCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "fragments.card"
+    }
+  }
+}

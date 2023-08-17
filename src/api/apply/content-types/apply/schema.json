@@ -4,7 +4,8 @@
   "info": {
     "singularName": "apply",
     "pluralName": "applies",
-    "displayName": "Apply"
+    "displayName": "Apply",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
