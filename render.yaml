@@ -33,4 +33,4 @@ services:
 
 databases:
   - name: strapi
-    plan: free
+    plan: starter
