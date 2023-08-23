@@ -15,7 +15,6 @@
       "type": "dynamiczone",
       "components": [
         "slices.call-to-action",
-        "slices.editor",
         "slices.fa-qs",
         "slices.hero",
         "slices.testimonial"

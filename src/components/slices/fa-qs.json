@@ -10,7 +10,7 @@
       "displayName": "FAQ",
       "type": "component",
       "repeatable": true,
-      "component": "fragments.faq"
+      "component": "blocks.faq"
     }
   }
 }

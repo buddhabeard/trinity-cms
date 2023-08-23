@@ -1,7 +1,7 @@
 {
-  "key": "plugin_content_manager_configuration_components::fragments.video",
+  "key": "plugin_content_manager_configuration_components::blocks.video",
   "value": {
-    "uid": "fragments.video",
+    "uid": "blocks.video",
     "settings": {
       "bulkable": true,
       "filterable": true,

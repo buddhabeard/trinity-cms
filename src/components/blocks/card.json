@@ -2,16 +2,18 @@
   "collectionName": "components_fragments_cards",
   "info": {
     "displayName": "Card",
-    "icon": "layout"
+    "icon": "layout",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "heading": {
       "type": "string",

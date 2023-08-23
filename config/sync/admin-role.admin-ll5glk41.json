@@ -47,8 +47,7 @@
           "title",
           "likes",
           "categories",
-          "image",
-          "content"
+          "image"
         ]
       },
       "conditions": []
@@ -73,8 +72,7 @@
           "title",
           "likes",
           "categories",
-          "image",
-          "content"
+          "image"
         ]
       },
       "conditions": []
@@ -87,8 +85,7 @@
           "title",
           "likes",
           "categories",
-          "image",
-          "content"
+          "image"
         ]
       },
       "conditions": []

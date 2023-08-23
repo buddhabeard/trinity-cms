@@ -1,7 +1,7 @@
 {
-  "key": "plugin_content_manager_configuration_components::fragments.faq",
+  "key": "plugin_content_manager_configuration_components::blocks.faq",
   "value": {
-    "uid": "fragments.faq",
+    "uid": "blocks.faq",
     "settings": {
       "bulkable": true,
       "filterable": true,
@@ -22,7 +22,7 @@
       },
       "question": {
         "edit": {
-          "label": "Question",
+          "label": "question",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -36,7 +36,7 @@
       },
       "answer": {
         "edit": {
-          "label": "Answer",
+          "label": "answer",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -59,13 +59,11 @@
         [
           {
             "name": "question",
-            "size": 12
-          }
-        ],
-        [
+            "size": 6
+          },
           {
             "name": "answer",
-            "size": 12
+            "size": 6
           }
         ]
       ]

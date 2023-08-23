@@ -1,7 +1,7 @@
 {
-  "key": "plugin_content_manager_configuration_components::fragments.blog-card",
+  "key": "plugin_content_manager_configuration_components::blocks.card",
   "value": {
-    "uid": "fragments.blog-card",
+    "uid": "blocks.card",
     "settings": {
       "bulkable": true,
       "filterable": true,
@@ -75,20 +75,6 @@
           "searchable": true,
           "sortable": true
         }
-      },
-      "likes": {
-        "edit": {
-          "label": "likes",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "likes",
-          "searchable": true,
-          "sortable": true
-        }
       }
     },
     "layouts": {
@@ -117,12 +103,6 @@
           {
             "name": "url",
             "size": 6
-          }
-        ],
-        [
-          {
-            "name": "likes",
-            "size": 4
           }
         ]
       ]

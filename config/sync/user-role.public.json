@@ -4,10 +4,19 @@
   "type": "public",
   "permissions": [
     {
+      "action": "api::apply.apply.find"
+    },
+    {
       "action": "api::category.category.find"
     },
     {
       "action": "api::category.category.findOne"
+    },
+    {
+      "action": "api::contact.contact.find"
+    },
+    {
+      "action": "api::donation-page.donation-page.find"
     },
     {
       "action": "api::event.event.find"
@@ -23,6 +32,15 @@
     },
     {
       "action": "api::post.post.findOne"
+    },
+    {
+      "action": "api::thrift-store.thrift-store.find"
+    },
+    {
+      "action": "api::who-we-are.who-we-are.find"
+    },
+    {
+      "action": "plugin::slugify.slugController.findSlug"
     },
     {
       "action": "plugin::upload.content-api.find"

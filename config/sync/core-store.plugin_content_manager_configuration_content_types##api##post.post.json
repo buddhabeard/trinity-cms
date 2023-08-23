@@ -77,20 +77,6 @@
           "sortable": false
         }
       },
-      "content": {
-        "edit": {
-          "label": "Content",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "content",
-          "searchable": false,
-          "sortable": false
-        }
-      },
       "event": {
         "edit": {
           "label": "Event",
@@ -118,6 +104,20 @@
           "label": "slug",
           "searchable": true,
           "sortable": true
+        }
+      },
+      "content": {
+        "edit": {
+          "label": "Content",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "content",
+          "searchable": false,
+          "sortable": false
         }
       },
       "createdAt": {
@@ -159,12 +159,6 @@
         ],
         [
           {
-            "name": "categories",
-            "size": 12
-          }
-        ],
-        [
-          {
             "name": "image",
             "size": 12
           }
@@ -172,6 +166,12 @@
         [
           {
             "name": "content",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "categories",
             "size": 12
           }
         ],

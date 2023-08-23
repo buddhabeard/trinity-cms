@@ -1,7 +1,7 @@
 {
-  "key": "plugin_content_manager_configuration_components::slices.editor",
+  "key": "plugin_content_manager_configuration_components::blocks.editor",
   "value": {
-    "uid": "slices.editor",
+    "uid": "blocks.editor",
     "settings": {
       "bulkable": true,
       "filterable": true,
@@ -22,7 +22,7 @@
       },
       "content": {
         "edit": {
-          "label": "content",
+          "label": "Content",
           "description": "",
           "placeholder": "",
           "visible": true,

@@ -9,7 +9,7 @@
     "linkCard": {
       "type": "component",
       "repeatable": true,
-      "component": "fragments.card"
+      "component": "blocks.card"
     }
   }
 }

@@ -417,9 +417,9 @@
           "likes",
           "categories",
           "image",
-          "content",
           "event",
-          "slug"
+          "slug",
+          "content"
         ]
       },
       "conditions": []
@@ -445,9 +445,9 @@
           "likes",
           "categories",
           "image",
-          "content",
           "event",
-          "slug"
+          "slug",
+          "content"
         ]
       },
       "conditions": []
@@ -461,9 +461,9 @@
           "likes",
           "categories",
           "image",
-          "content",
           "event",
-          "slug"
+          "slug",
+          "content"
         ]
       },
       "conditions": []
