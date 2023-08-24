@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: strapi
+    name: trinity_cms
     env: node
     plan: starter
     buildCommand: npm i && npm run build
@@ -20,7 +20,7 @@ services:
         sync: false
       - key: DATABASE_URL
         fromDatabase:
-          name: strapi
+          name: trinity_cms
           property: connectionString
       - key: JWT_SECRET
         generateValue: true
@@ -32,5 +32,5 @@ services:
         value: true
 
 databases:
-  - name: strapi
+  - name: trinity_cms
     plan: starter
