@@ -4,7 +4,8 @@
   "info": {
     "singularName": "thrift-store",
     "pluralName": "thrift-stores",
-    "displayName": "Thrift Store"
+    "displayName": "Thrift Store",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,7 +18,8 @@
         "slices.call-to-action",
         "slices.fa-qs",
         "slices.hero",
-        "slices.testimonial"
+        "slices.testimonial",
+        "slices.link-cards"
       ]
     },
     "seo": {
