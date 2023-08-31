@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_slices_callouts",
+  "info": {
+    "displayName": "Callout",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "text"
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "bgColor": {
+      "type": "enumeration",
+      "enum": [
+        "teal",
+        "dark blue",
+        "green",
+        "lime green"
+      ],
+      "default": "teal"
+    },
+    "buttonText": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

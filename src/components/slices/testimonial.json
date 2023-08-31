@@ -2,24 +2,26 @@
   "collectionName": "components_slices_testimonials",
   "info": {
     "displayName": "Testimonial",
-    "icon": "quote"
+    "icon": "quote",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "heading": {
-      "type": "string",
+    "quote": {
+      "type": "text",
       "required": true,
-      "minLength": 3
+      "minLength": 8
     },
-    "subHeading": {
-      "type": "string"
+    "name": {
+      "type": "string",
+      "required": true
     },
     "video": {
       "type": "customField",
       "customField": "plugin::oembed.oembed"
     },
-    "content": {
-      "type": "text",
+    "profession": {
+      "type": "string",
       "required": true
     }
   }

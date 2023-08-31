@@ -24,6 +24,10 @@
     "content": {
       "type": "string",
       "minLength": 10
+    },
+    "url": {
+      "type": "string",
+      "required": true
     }
   }
 }
