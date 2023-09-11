@@ -22,7 +22,7 @@
       },
       "image": {
         "edit": {
-          "label": "image",
+          "label": "Image",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -36,7 +36,7 @@
       },
       "heading": {
         "edit": {
-          "label": "heading",
+          "label": "Heading",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -50,7 +50,7 @@
       },
       "content": {
         "edit": {
-          "label": "content",
+          "label": "Content",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -64,7 +64,7 @@
       },
       "url": {
         "edit": {
-          "label": "url",
+          "label": "URL",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -87,22 +87,26 @@
       "edit": [
         [
           {
-            "name": "image",
-            "size": 6
-          },
-          {
             "name": "heading",
-            "size": 6
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "image",
+            "size": 12
           }
         ],
         [
           {
             "name": "content",
-            "size": 6
-          },
+            "size": 12
+          }
+        ],
+        [
           {
             "name": "url",
-            "size": 6
+            "size": 12
           }
         ]
       ]

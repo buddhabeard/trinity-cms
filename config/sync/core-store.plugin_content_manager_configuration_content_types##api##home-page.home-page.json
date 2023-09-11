@@ -20,30 +20,72 @@
           "sortable": true
         }
       },
-      "slices": {
+      "linkCards": {
         "edit": {
-          "label": "Slices",
+          "label": "Link Cards",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "slices",
+          "label": "linkCards",
           "searchable": false,
           "sortable": false
         }
       },
-      "seo": {
+      "faqs": {
         "edit": {
-          "label": "seo",
+          "label": "FAQs",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "seo",
+          "label": "faqs",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "cta": {
+        "edit": {
+          "label": "CTA",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "cta",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "callout": {
+        "edit": {
+          "label": "Callout",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "callout",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "carousel": {
+        "edit": {
+          "label": "carousel",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "carousel",
           "searchable": false,
           "sortable": false
         }
@@ -78,25 +120,43 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "createdAt",
-        "updatedAt",
-        "seo"
-      ],
       "edit": [
         [
           {
-            "name": "slices",
+            "name": "carousel",
             "size": 12
           }
         ],
         [
           {
-            "name": "seo",
+            "name": "linkCards",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "callout",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "faqs",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "cta",
             "size": 12
           }
         ]
+      ],
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "carousel"
       ]
     }
   },

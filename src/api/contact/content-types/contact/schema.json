@@ -16,7 +16,7 @@
       "components": [
         "slices.call-to-action",
         "slices.fa-qs",
-        "slices.hero",
+        "blocks.hero",
         "slices.testimonial"
       ]
     },

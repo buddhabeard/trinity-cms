@@ -20,30 +20,16 @@
           "sortable": true
         }
       },
-      "slices": {
+      "faqs": {
         "edit": {
-          "label": "slices",
+          "label": "faqs",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "slices",
-          "searchable": false,
-          "sortable": false
-        }
-      },
-      "seo": {
-        "edit": {
-          "label": "seo",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "seo",
+          "label": "faqs",
           "searchable": false,
           "sortable": false
         }
@@ -80,20 +66,14 @@
     "layouts": {
       "list": [
         "id",
-        "seo",
         "createdAt",
-        "updatedAt"
+        "updatedAt",
+        "faqs"
       ],
       "edit": [
         [
           {
-            "name": "slices",
-            "size": 12
-          }
-        ],
-        [
-          {
-            "name": "seo",
+            "name": "faqs",
             "size": 12
           }
         ]

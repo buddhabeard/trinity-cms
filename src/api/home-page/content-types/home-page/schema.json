@@ -12,11 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "hero": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.hero"
-    },
     "linkCards": {
       "type": "component",
       "repeatable": false,
@@ -37,6 +32,11 @@
       "repeatable": false,
       "component": "slices.callout",
       "required": true
+    },
+    "carousel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.carousel"
     }
   }
 }

@@ -7,8 +7,8 @@
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "heading",
-      "defaultSortBy": "heading",
+      "mainField": "name",
+      "defaultSortBy": "name",
       "defaultSortOrder": "ASC"
     },
     "metadatas": {
@@ -20,30 +20,30 @@
           "sortable": false
         }
       },
-      "heading": {
+      "quote": {
         "edit": {
-          "label": "Heading",
+          "label": "Quote",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "heading",
+          "label": "quote",
           "searchable": true,
           "sortable": true
         }
       },
-      "subHeading": {
+      "name": {
         "edit": {
-          "label": "Sub Heading",
+          "label": "Name",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "subHeading",
+          "label": "name",
           "searchable": true,
           "sortable": true
         }
@@ -62,38 +62,58 @@
           "sortable": true
         }
       },
-      "content": {
+      "profession": {
         "edit": {
-          "label": "Content",
+          "label": "Profession",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "content",
+          "label": "profession",
           "searchable": true,
           "sortable": true
+        }
+      },
+      "image": {
+        "edit": {
+          "label": "image",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "image",
+          "searchable": false,
+          "sortable": false
         }
       }
     },
     "layouts": {
       "list": [
         "id",
-        "heading",
-        "subHeading",
-        "video"
+        "video",
+        "quote",
+        "name"
       ],
       "edit": [
         [
           {
-            "name": "heading",
+            "name": "name",
             "size": 12
           }
         ],
         [
           {
-            "name": "subHeading",
+            "name": "profession",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "quote",
             "size": 12
           }
         ],
@@ -105,8 +125,8 @@
         ],
         [
           {
-            "name": "content",
-            "size": 12
+            "name": "image",
+            "size": 6
           }
         ]
       ]

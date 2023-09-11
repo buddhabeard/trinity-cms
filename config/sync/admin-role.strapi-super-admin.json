@@ -8,19 +8,8 @@
       "subject": "api::apply.apply",
       "properties": {
         "fields": [
-          "slices",
-          "seo.metaTitle",
-          "seo.metaDescription",
-          "seo.metaImage",
-          "seo.metaSocial.socialNetwork",
-          "seo.metaSocial.title",
-          "seo.metaSocial.description",
-          "seo.metaSocial.image",
-          "seo.keywords",
-          "seo.metaRobots",
-          "seo.structuredData",
-          "seo.metaViewport",
-          "seo.canonicalURL"
+          "faqs.FAQ.question",
+          "faqs.FAQ.answer"
         ]
       },
       "conditions": []
@@ -42,19 +31,8 @@
       "subject": "api::apply.apply",
       "properties": {
         "fields": [
-          "slices",
-          "seo.metaTitle",
-          "seo.metaDescription",
-          "seo.metaImage",
-          "seo.metaSocial.socialNetwork",
-          "seo.metaSocial.title",
-          "seo.metaSocial.description",
-          "seo.metaSocial.image",
-          "seo.keywords",
-          "seo.metaRobots",
-          "seo.structuredData",
-          "seo.metaViewport",
-          "seo.canonicalURL"
+          "faqs.FAQ.question",
+          "faqs.FAQ.answer"
         ]
       },
       "conditions": []
@@ -64,19 +42,8 @@
       "subject": "api::apply.apply",
       "properties": {
         "fields": [
-          "slices",
-          "seo.metaTitle",
-          "seo.metaDescription",
-          "seo.metaImage",
-          "seo.metaSocial.socialNetwork",
-          "seo.metaSocial.title",
-          "seo.metaSocial.description",
-          "seo.metaSocial.image",
-          "seo.keywords",
-          "seo.metaRobots",
-          "seo.structuredData",
-          "seo.metaViewport",
-          "seo.canonicalURL"
+          "faqs.FAQ.question",
+          "faqs.FAQ.answer"
         ]
       },
       "conditions": []
@@ -335,19 +302,26 @@
       "subject": "api::home-page.home-page",
       "properties": {
         "fields": [
-          "slices",
-          "seo.metaTitle",
-          "seo.metaDescription",
-          "seo.metaImage",
-          "seo.metaSocial.socialNetwork",
-          "seo.metaSocial.title",
-          "seo.metaSocial.description",
-          "seo.metaSocial.image",
-          "seo.keywords",
-          "seo.metaRobots",
-          "seo.structuredData",
-          "seo.metaViewport",
-          "seo.canonicalURL"
+          "linkCards.linkCard.image",
+          "linkCards.linkCard.heading",
+          "linkCards.linkCard.content",
+          "linkCards.linkCard.url",
+          "faqs.FAQ.question",
+          "faqs.FAQ.answer",
+          "cta.type",
+          "cta.heading",
+          "cta.content",
+          "cta.url",
+          "callout.image",
+          "callout.title",
+          "callout.content",
+          "callout.url",
+          "callout.bgColor",
+          "callout.buttonText",
+          "carousel.items.title",
+          "carousel.items.image",
+          "carousel.items.content",
+          "carousel.items.url"
         ]
       },
       "conditions": []
@@ -369,19 +343,26 @@
       "subject": "api::home-page.home-page",
       "properties": {
         "fields": [
-          "slices",
-          "seo.metaTitle",
-          "seo.metaDescription",
-          "seo.metaImage",
-          "seo.metaSocial.socialNetwork",
-          "seo.metaSocial.title",
-          "seo.metaSocial.description",
-          "seo.metaSocial.image",
-          "seo.keywords",
-          "seo.metaRobots",
-          "seo.structuredData",
-          "seo.metaViewport",
-          "seo.canonicalURL"
+          "linkCards.linkCard.image",
+          "linkCards.linkCard.heading",
+          "linkCards.linkCard.content",
+          "linkCards.linkCard.url",
+          "faqs.FAQ.question",
+          "faqs.FAQ.answer",
+          "cta.type",
+          "cta.heading",
+          "cta.content",
+          "cta.url",
+          "callout.image",
+          "callout.title",
+          "callout.content",
+          "callout.url",
+          "callout.bgColor",
+          "callout.buttonText",
+          "carousel.items.title",
+          "carousel.items.image",
+          "carousel.items.content",
+          "carousel.items.url"
         ]
       },
       "conditions": []
@@ -391,19 +372,26 @@
       "subject": "api::home-page.home-page",
       "properties": {
         "fields": [
-          "slices",
-          "seo.metaTitle",
-          "seo.metaDescription",
-          "seo.metaImage",
-          "seo.metaSocial.socialNetwork",
-          "seo.metaSocial.title",
-          "seo.metaSocial.description",
-          "seo.metaSocial.image",
-          "seo.keywords",
-          "seo.metaRobots",
-          "seo.structuredData",
-          "seo.metaViewport",
-          "seo.canonicalURL"
+          "linkCards.linkCard.image",
+          "linkCards.linkCard.heading",
+          "linkCards.linkCard.content",
+          "linkCards.linkCard.url",
+          "faqs.FAQ.question",
+          "faqs.FAQ.answer",
+          "cta.type",
+          "cta.heading",
+          "cta.content",
+          "cta.url",
+          "callout.image",
+          "callout.title",
+          "callout.content",
+          "callout.url",
+          "callout.bgColor",
+          "callout.buttonText",
+          "carousel.items.title",
+          "carousel.items.image",
+          "carousel.items.content",
+          "carousel.items.url"
         ]
       },
       "conditions": []

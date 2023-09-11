@@ -1,7 +1,7 @@
 {
-  "key": "plugin_content_manager_configuration_components::slices.hero",
+  "key": "plugin_content_manager_configuration_components::blocks.hero",
   "value": {
-    "uid": "slices.hero",
+    "uid": "blocks.hero",
     "settings": {
       "bulkable": true,
       "filterable": true,
@@ -61,6 +61,20 @@
           "searchable": true,
           "sortable": true
         }
+      },
+      "url": {
+        "edit": {
+          "label": "url",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "url",
+          "searchable": true,
+          "sortable": true
+        }
       }
     },
     "layouts": {
@@ -74,19 +88,21 @@
         [
           {
             "name": "title",
-            "size": 12
-          }
-        ],
-        [
+            "size": 6
+          },
           {
             "name": "image",
-            "size": 12
+            "size": 6
           }
         ],
         [
           {
             "name": "content",
-            "size": 12
+            "size": 6
+          },
+          {
+            "name": "url",
+            "size": 6
           }
         ]
       ]

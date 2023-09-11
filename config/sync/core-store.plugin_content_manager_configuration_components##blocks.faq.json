@@ -22,7 +22,7 @@
       },
       "question": {
         "edit": {
-          "label": "question",
+          "label": "Question",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -36,7 +36,7 @@
       },
       "answer": {
         "edit": {
-          "label": "answer",
+          "label": "Answer",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -59,11 +59,13 @@
         [
           {
             "name": "question",
-            "size": 6
-          },
+            "size": 12
+          }
+        ],
+        [
           {
             "name": "answer",
-            "size": 6
+            "size": 12
           }
         ]
       ]
