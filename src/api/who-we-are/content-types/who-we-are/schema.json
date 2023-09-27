@@ -12,6 +12,12 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.hero",
+      "required": true
+    },
     "whatWeProvide": {
       "type": "component",
       "repeatable": false,
@@ -22,6 +28,11 @@
       "repeatable": false,
       "component": "slices.carousel"
     },
+    "testimonial": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.testimonial"
+    },
     "callout": {
       "type": "component",
       "repeatable": false,
@@ -29,7 +40,7 @@
     },
     "faqs": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "slices.fa-qs"
     },
     "cta": {
