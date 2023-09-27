@@ -20,30 +20,100 @@
           "sortable": true
         }
       },
-      "slices": {
+      "hero": {
         "edit": {
-          "label": "slices",
+          "label": "Hero",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "slices",
+          "label": "hero",
           "searchable": false,
           "sortable": false
         }
       },
-      "seo": {
+      "whatWeProvide": {
         "edit": {
-          "label": "seo",
+          "label": "What We Provide (content area)",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "seo",
+          "label": "whatWeProvide",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "carousel": {
+        "edit": {
+          "label": "Carousel Cards",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "carousel",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "testimonial": {
+        "edit": {
+          "label": "Testimonial",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "testimonial",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "callout": {
+        "edit": {
+          "label": "Callout",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "callout",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "faqs": {
+        "edit": {
+          "label": "FAQs",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "faqs",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "cta": {
+        "edit": {
+          "label": "Call To Action",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "cta",
           "searchable": false,
           "sortable": false
         }
@@ -78,25 +148,55 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "createdAt",
-        "updatedAt",
-        "seo"
-      ],
       "edit": [
         [
           {
-            "name": "slices",
+            "name": "hero",
             "size": 12
           }
         ],
         [
           {
-            "name": "seo",
+            "name": "whatWeProvide",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "carousel",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "testimonial",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "callout",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "faqs",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "cta",
             "size": 12
           }
         ]
+      ],
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "hero"
       ]
     }
   },
