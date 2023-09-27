@@ -12,20 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "slices": {
-      "type": "dynamiczone",
-      "components": [
-        "slices.call-to-action",
-        "slices.fa-qs",
-        "blocks.hero",
-        "slices.testimonial",
-        "slices.link-cards"
-      ]
-    },
-    "seo": {
+    "hero": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.seo"
+      "component": "blocks.hero"
     }
   }
 }
