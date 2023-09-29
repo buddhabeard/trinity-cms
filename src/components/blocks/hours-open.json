@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_blocks_hours_opens",
+  "info": {
+    "displayName": "Hours Open",
+    "icon": "clock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "open": {
+      "type": "time",
+      "default": "09:00",
+      "required": true
+    },
+    "close": {
+      "type": "time",
+      "required": true,
+      "default": "20:00"
+    },
+    "day": {
+      "type": "enumeration",
+      "enum": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "required": true
+    }
+  }
+}

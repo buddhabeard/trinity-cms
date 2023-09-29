@@ -16,6 +16,27 @@
       "type": "component",
       "repeatable": false,
       "component": "blocks.hero"
+    },
+    "acceptingDonations": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.accepting-donations"
+    },
+    "storeLocations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.store-location"
+    },
+    "storeHours": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.hours-open"
+    },
+    "coupon": {
+      "displayName": "Coupon",
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.coupon"
     }
   }
 }

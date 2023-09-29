@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_store_hours",
+  "info": {
+    "displayName": "Store Hours",
+    "icon": "calendar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "hoursOpen": {
+      "displayName": "Hours Open",
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.hours-open"
+    }
+  }
+}

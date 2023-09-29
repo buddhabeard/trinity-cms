@@ -2,22 +2,11 @@
   "collectionName": "components_blocks_icon_list_items",
   "info": {
     "displayName": "Icon List Item",
-    "icon": "bulletList"
+    "icon": "bulletList",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "icon": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
-    },
-    "heading": {
-      "type": "string",
-      "required": true
-    },
     "content": {
       "type": "text"
     }

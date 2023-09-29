@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_blocks_store_locations",
+  "info": {
+    "displayName": "Store Location",
+    "icon": "pinMap"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "zip": {
+      "type": "string"
+    },
+    "street": {
+      "type": "string"
+    },
+    "directionsLink": {
+      "type": "string"
+    }
+  }
+}

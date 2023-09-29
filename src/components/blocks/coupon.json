@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_blocks_coupons",
+  "info": {
+    "displayName": "Coupon",
+    "icon": "shoppingCart"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "downloadURL": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_blocks_accepting_donations",
+  "info": {
+    "displayName": "Accepting Donations",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonColor": {
+      "type": "enumeration",
+      "enum": [
+        "teal",
+        "dark blue"
+      ]
+    },
+    "itemsAvailable": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.icon-list-item",
+      "required": true
+    }
+  }
+}
