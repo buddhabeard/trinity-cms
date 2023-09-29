@@ -9,6 +9,13 @@
   "attributes": {
     "content": {
       "type": "text"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
