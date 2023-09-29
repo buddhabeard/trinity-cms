@@ -1,0 +1,97 @@
+{
+  "key": "plugin_content_manager_configuration_components::blocks.hours-open",
+  "value": {
+    "uid": "blocks.hours-open",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "open": {
+        "edit": {
+          "label": "Open",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "open",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "close": {
+        "edit": {
+          "label": "Close",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "close",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "day": {
+        "edit": {
+          "label": "Day",
+          "description": "",
+          "placeholder": "Monday, Tuesday ...",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "day",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "day",
+        "open",
+        "close"
+      ],
+      "edit": [
+        [
+          {
+            "name": "day",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "open",
+            "size": 6
+          },
+          {
+            "name": "close",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

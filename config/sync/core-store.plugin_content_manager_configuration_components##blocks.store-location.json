@@ -1,14 +1,14 @@
 {
-  "key": "plugin_content_manager_configuration_content_types::api::thrift-store.thrift-store",
+  "key": "plugin_content_manager_configuration_components::blocks.store-location",
   "value": {
-    "uid": "api::thrift-store.thrift-store",
+    "uid": "blocks.store-location",
     "settings": {
       "bulkable": true,
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "id",
-      "defaultSortBy": "id",
+      "mainField": "title",
+      "defaultSortBy": "title",
       "defaultSortOrder": "ASC"
     },
     "metadatas": {
@@ -16,149 +16,138 @@
         "edit": {},
         "list": {
           "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "Title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "title",
           "searchable": true,
           "sortable": true
         }
       },
-      "hero": {
+      "city": {
         "edit": {
-          "label": "Hero",
+          "label": "City",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "hero",
-          "searchable": false,
-          "sortable": false
-        }
-      },
-      "acceptingDonations": {
-        "edit": {
-          "label": "Accepting Donations",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "acceptingDonations",
-          "searchable": false,
-          "sortable": false
-        }
-      },
-      "storeLocations": {
-        "edit": {
-          "label": "Store Locations",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "storeLocations",
-          "searchable": false,
-          "sortable": false
-        }
-      },
-      "storeHours": {
-        "edit": {
-          "label": "Store Hours",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "storeHours",
-          "searchable": false,
-          "sortable": false
-        }
-      },
-      "coupon": {
-        "edit": {
-          "label": "Coupon",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "coupon",
-          "searchable": false,
-          "sortable": false
-        }
-      },
-      "createdAt": {
-        "edit": {
-          "label": "createdAt",
-          "description": "",
-          "placeholder": "",
-          "visible": false,
-          "editable": true
-        },
-        "list": {
-          "label": "createdAt",
+          "label": "city",
           "searchable": true,
           "sortable": true
         }
       },
-      "updatedAt": {
+      "state": {
         "edit": {
-          "label": "updatedAt",
+          "label": "State",
           "description": "",
           "placeholder": "",
-          "visible": false,
+          "visible": true,
           "editable": true
         },
         "list": {
-          "label": "updatedAt",
+          "label": "state",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "zip": {
+        "edit": {
+          "label": "Zip",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "zip",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "street": {
+        "edit": {
+          "label": "Street",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "street",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "directionsLink": {
+        "edit": {
+          "label": "Directions URL",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "directionsLink",
           "searchable": true,
           "sortable": true
         }
       }
     },
     "layouts": {
+      "list": [
+        "id",
+        "title",
+        "city",
+        "state"
+      ],
       "edit": [
         [
           {
-            "name": "hero",
+            "name": "title",
             "size": 12
           }
         ],
         [
           {
-            "name": "acceptingDonations",
+            "name": "street",
             "size": 12
           }
         ],
         [
           {
-            "name": "storeHours",
-            "size": 12
+            "name": "city",
+            "size": 6
+          },
+          {
+            "name": "state",
+            "size": 6
           }
         ],
         [
           {
-            "name": "storeLocations",
-            "size": 12
-          }
-        ],
-        [
+            "name": "zip",
+            "size": 6
+          },
           {
-            "name": "coupon",
-            "size": 12
+            "name": "directionsLink",
+            "size": 6
           }
         ]
-      ],
-      "list": [
-        "id",
-        "createdAt",
-        "updatedAt",
-        "hero"
       ]
-    }
+    },
+    "isComponent": true
   },
   "type": "object",
   "environment": null,
