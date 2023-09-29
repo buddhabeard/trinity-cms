@@ -50,7 +50,7 @@
       },
       "buttonText": {
         "edit": {
-          "label": "buttonText",
+          "label": "Button Text",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -64,7 +64,7 @@
       },
       "buttonColor": {
         "edit": {
-          "label": "buttonColor",
+          "label": "Button Color",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -78,7 +78,7 @@
       },
       "itemsAvailable": {
         "edit": {
-          "label": "itemsAvailable",
+          "label": "Items available",
           "description": "",
           "placeholder": "",
           "visible": true,
