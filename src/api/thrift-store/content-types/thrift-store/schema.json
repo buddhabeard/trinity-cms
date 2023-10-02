@@ -37,6 +37,11 @@
       "type": "component",
       "repeatable": false,
       "component": "blocks.coupon"
+    },
+    "faqs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.fa-qs"
     }
   }
 }
