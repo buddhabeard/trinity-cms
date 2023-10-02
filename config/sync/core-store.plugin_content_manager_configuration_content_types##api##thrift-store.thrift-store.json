@@ -90,6 +90,20 @@
           "sortable": false
         }
       },
+      "faqs": {
+        "edit": {
+          "label": "faqs",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "faqs",
+          "searchable": false,
+          "sortable": false
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -120,6 +134,12 @@
       }
     },
     "layouts": {
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "hero"
+      ],
       "edit": [
         [
           {
@@ -150,13 +170,13 @@
             "name": "coupon",
             "size": 12
           }
+        ],
+        [
+          {
+            "name": "faqs",
+            "size": 12
+          }
         ]
-      ],
-      "list": [
-        "id",
-        "createdAt",
-        "updatedAt",
-        "hero"
       ]
     }
   },
