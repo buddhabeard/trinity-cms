@@ -7,8 +7,8 @@
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "name",
-      "defaultSortBy": "name",
+      "mainField": "id",
+      "defaultSortBy": "id",
       "defaultSortOrder": "ASC"
     },
     "metadatas": {
@@ -18,34 +18,6 @@
           "label": "id",
           "searchable": false,
           "sortable": false
-        }
-      },
-      "quote": {
-        "edit": {
-          "label": "Quote",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "quote",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "name": {
-        "edit": {
-          "label": "Name",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "name",
-          "searchable": true,
-          "sortable": true
         }
       },
       "video": {
@@ -62,30 +34,16 @@
           "sortable": true
         }
       },
-      "profession": {
+      "content": {
         "edit": {
-          "label": "Profession",
+          "label": "content",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "profession",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "image": {
-        "edit": {
-          "label": "image",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "image",
+          "label": "content",
           "searchable": false,
           "sortable": false
         }
@@ -94,29 +52,9 @@
     "layouts": {
       "list": [
         "id",
-        "video",
-        "quote",
-        "name"
+        "video"
       ],
       "edit": [
-        [
-          {
-            "name": "name",
-            "size": 12
-          }
-        ],
-        [
-          {
-            "name": "profession",
-            "size": 12
-          }
-        ],
-        [
-          {
-            "name": "quote",
-            "size": 12
-          }
-        ],
         [
           {
             "name": "video",
@@ -125,8 +63,8 @@
         ],
         [
           {
-            "name": "image",
-            "size": 6
+            "name": "content",
+            "size": 12
           }
         ]
       ]

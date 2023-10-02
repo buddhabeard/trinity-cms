@@ -7,30 +7,16 @@
   },
   "options": {},
   "attributes": {
-    "quote": {
-      "type": "text",
-      "required": true,
-      "minLength": 8
-    },
-    "name": {
-      "type": "string",
-      "required": true
-    },
     "video": {
       "type": "customField",
       "customField": "plugin::oembed.oembed"
     },
-    "profession": {
-      "type": "string",
-      "required": true
-    },
-    "image": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "blockBaloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
     }
   }
 }
