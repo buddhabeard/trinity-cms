@@ -20,30 +20,44 @@
           "sortable": true
         }
       },
-      "slices": {
+      "hero": {
         "edit": {
-          "label": "slices",
+          "label": "Hero",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "slices",
+          "label": "hero",
           "searchable": false,
           "sortable": false
         }
       },
-      "seo": {
+      "imageGrid": {
         "edit": {
-          "label": "seo",
+          "label": "Image Grid",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "seo",
+          "label": "imageGrid",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "faqs": {
+        "edit": {
+          "label": "faqs",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "faqs",
           "searchable": false,
           "sortable": false
         }
@@ -80,20 +94,26 @@
     "layouts": {
       "list": [
         "id",
-        "seo",
         "createdAt",
-        "updatedAt"
+        "updatedAt",
+        "hero"
       ],
       "edit": [
         [
           {
-            "name": "slices",
+            "name": "hero",
             "size": 12
           }
         ],
         [
           {
-            "name": "seo",
+            "name": "imageGrid",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "faqs",
             "size": 12
           }
         ]

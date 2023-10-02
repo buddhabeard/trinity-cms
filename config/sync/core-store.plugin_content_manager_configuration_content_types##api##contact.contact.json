@@ -20,30 +20,44 @@
           "sortable": true
         }
       },
-      "slices": {
+      "hero": {
         "edit": {
-          "label": "slices",
+          "label": "hero",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "slices",
+          "label": "hero",
           "searchable": false,
           "sortable": false
         }
       },
-      "seo": {
+      "faqs": {
         "edit": {
-          "label": "seo",
+          "label": "faqs",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "seo",
+          "label": "faqs",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "cta": {
+        "edit": {
+          "label": "cta",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "cta",
           "searchable": false,
           "sortable": false
         }
@@ -80,20 +94,26 @@
     "layouts": {
       "list": [
         "id",
-        "seo",
         "createdAt",
-        "updatedAt"
+        "updatedAt",
+        "hero"
       ],
       "edit": [
         [
           {
-            "name": "slices",
+            "name": "hero",
             "size": 12
           }
         ],
         [
           {
-            "name": "seo",
+            "name": "faqs",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "cta",
             "size": 12
           }
         ]
