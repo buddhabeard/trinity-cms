@@ -92,7 +92,7 @@
       },
       "faqs": {
         "edit": {
-          "label": "faqs",
+          "label": "FAQs",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -100,6 +100,20 @@
         },
         "list": {
           "label": "faqs",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "testimonial": {
+        "edit": {
+          "label": "Video and Content",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "testimonial",
           "searchable": false,
           "sortable": false
         }
@@ -134,12 +148,6 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "createdAt",
-        "updatedAt",
-        "hero"
-      ],
       "edit": [
         [
           {
@@ -167,6 +175,12 @@
         ],
         [
           {
+            "name": "testimonial",
+            "size": 12
+          }
+        ],
+        [
+          {
             "name": "coupon",
             "size": 12
           }
@@ -177,6 +191,12 @@
             "size": 12
           }
         ]
+      ],
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "hero"
       ]
     }
   },

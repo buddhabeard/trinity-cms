@@ -42,6 +42,11 @@
       "type": "component",
       "repeatable": false,
       "component": "slices.fa-qs"
+    },
+    "testimonial": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.testimonial"
     }
   }
 }
