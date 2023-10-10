@@ -4,7 +4,7 @@
   "info": {
     "singularName": "donation-page",
     "pluralName": "donation-pages",
-    "displayName": "Donations",
+    "displayName": "Donate",
     "description": ""
   },
   "options": {
@@ -17,15 +17,18 @@
       "repeatable": false,
       "component": "blocks.hero"
     },
-    "imageGrid": {
-      "type": "component",
-      "repeatable": false,
-      "component": "blocks.image-grid"
-    },
     "faqs": {
       "type": "component",
       "repeatable": false,
       "component": "slices.fa-qs"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "blockBaloon"
+      },
+      "required": false,
+      "customField": "plugin::ckeditor5.CKEditor"
     }
   }
 }

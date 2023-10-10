@@ -34,30 +34,30 @@
           "sortable": false
         }
       },
-      "imageGrid": {
+      "faqs": {
         "edit": {
-          "label": "Image Grid",
+          "label": "FAQs",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "imageGrid",
+          "label": "faqs",
           "searchable": false,
           "sortable": false
         }
       },
-      "faqs": {
+      "content": {
         "edit": {
-          "label": "faqs",
+          "label": "Content",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "faqs",
+          "label": "content",
           "searchable": false,
           "sortable": false
         }
@@ -92,12 +92,6 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "createdAt",
-        "updatedAt",
-        "hero"
-      ],
       "edit": [
         [
           {
@@ -107,7 +101,7 @@
         ],
         [
           {
-            "name": "imageGrid",
+            "name": "content",
             "size": 12
           }
         ],
@@ -117,6 +111,12 @@
             "size": 12
           }
         ]
+      ],
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "hero"
       ]
     }
   },
