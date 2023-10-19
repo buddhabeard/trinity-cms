@@ -91,13 +91,4 @@ module.exports = ({ env }) => ({
       },
     },
   },
-  ezforms: {
-    config: {
-      enableFormName: true,
-      captchaProvider: {
-        name: "none",
-      },
-      notificationProviders: [],
-    },
-  },
 });
