@@ -85,9 +85,8 @@ module.exports = ({ env }) => ({
     config: {
       provdier: "sendmail",
       settings: {
-        defaultFrom: "no-reply@trinitylifeministry.com",
-        defaultReplyTo: "mdx.programs@gmail.com",
-        // defaultReplyTo: "engage@trinitylifeministry.com",
+        defaultFrom: "engage@trinitylifeministry.com",
+        defaultReplyTo: "engage@trinitylifeministry.com",
       },
     },
   },
