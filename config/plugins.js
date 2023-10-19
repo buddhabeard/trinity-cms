@@ -1,9 +1,6 @@
-const dotenv = require("dotenv");
 const { uids, urls } = require("./_previewConfig");
 
-dotenv.config();
-
-module.exports = {
+module.exports = ({ env }) => ({
   slugify: {
     enabled: true,
     config: {
@@ -19,9 +16,9 @@ module.exports = {
     config: {
       provider: "cloudinary",
       providerOptions: {
-        cloud_name: process.env.CLOUDINARY_NAME,
-        api_key: process.env.CLOUDINARY_KEY,
-        api_secret: process.env.CLOUDINARY_SECRET,
+        cloud_name: env("CLOUDINARY_NAME"),
+        api_key: env("CLOUDINARY_KEY"),
+        api_secret: env("CLOUDINARY_SECRET"),
       },
       actionOptions: {
         upload: {},
@@ -84,6 +81,16 @@ module.exports = {
       ],
     },
   },
+  email: {
+    config: {
+      provdier: "sendmail",
+      settings: {
+        defaultFrom: "no-reply@trinitylifeministry.com",
+        defaultReplyTo: "mdx.programs@gmail.com",
+        // defaultReplyTo: "engage@trinitylifeministry.com",
+      },
+    },
+  },
   ezforms: {
     config: {
       enableFormName: true,
@@ -93,4 +100,4 @@ module.exports = {
       notificationProviders: [],
     },
   },
-};
+});
