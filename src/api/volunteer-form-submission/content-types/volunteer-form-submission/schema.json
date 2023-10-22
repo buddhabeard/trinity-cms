@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "volunteer_form_submissions",
+  "info": {
+    "singularName": "volunteer-form-submission",
+    "pluralName": "volunteer-form-submissions",
+    "displayName": "Volunteer Form Submissions",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstName": {
+      "type": "string",
+      "required": true
+    },
+    "lastName": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "positions": {
+      "type": "string",
+      "required": true,
+      "default": "any"
+    },
+    "timeAvailable": {
+      "type": "string",
+      "required": true,
+      "default": "During the day"
+    }
+  }
+}
