@@ -83,7 +83,10 @@ module.exports = ({ env }) => ({
   },
   email: {
     config: {
-      provdier: "sendmail",
+      provider: "sendgrid",
+      providerOptions: {
+        apiKey: env("SENDGRID_API_KEY"),
+      },
       settings: {
         defaultFrom: "engage@trinitylifeministry.com",
         defaultReplyTo: "engage@trinitylifeministry.com",
