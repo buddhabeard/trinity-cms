@@ -1,4 +1,4 @@
-const baseURL = "https://trinity-life-ministry.onrender.com";
+const baseURL = "https://trinitylifeministry.com";
 
 module.exports = {
   uids: {
