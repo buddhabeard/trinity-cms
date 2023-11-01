@@ -1,5 +1,6 @@
 module.exports = {
   async afterCreate(event) {
+    console.log(event.params);
     try {
       await strapi.plugins["email"].services.email.send({
         to: "engage@trinitylifeministry.com",
@@ -10,7 +11,7 @@ module.exports = {
         html: "",
       });
     } catch (err) {
-      console.log(err.body);
+      console.log(err);
     }
 
     try {
@@ -23,7 +24,7 @@ module.exports = {
         html: "",
       });
     } catch (err) {
-      console.log(err.body);
+      console.log(err);
     }
   },
 };
