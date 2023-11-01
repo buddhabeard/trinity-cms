@@ -1,6 +1,13 @@
 module.exports = {
   async afterCreate(event) {
-    console.log(event.params);
+    console.log("---EVENT---");
+    console.log(event);
+
+    if (event?.params) {
+      console.log("---PARAMS---");
+      console.log(event.params);
+    }
+
     try {
       await strapi.plugins["email"].services.email.send({
         to: "engage@trinitylifeministry.com",
