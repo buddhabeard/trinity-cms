@@ -46,6 +46,10 @@
     },
     "eventDate": {
       "type": "datetime"
+    },
+    "feature": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
