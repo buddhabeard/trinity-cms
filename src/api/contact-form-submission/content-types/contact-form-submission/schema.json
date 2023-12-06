@@ -4,7 +4,8 @@
   "info": {
     "singularName": "contact-form-submission",
     "pluralName": "contact-form-submissions",
-    "displayName": "Contact Form Submissions"
+    "displayName": "Contact Form Submissions",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -21,11 +22,15 @@
     },
     "email": {
       "type": "email",
-      "required": true
+      "required": false
     },
     "message": {
       "type": "text",
       "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": false
     }
   }
 }
